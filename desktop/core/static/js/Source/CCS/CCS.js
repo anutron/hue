@@ -67,4 +67,4 @@ StickyWin.WM.setOptions({
 });
 
 //allows for selectors like $$('[data-foo-bar]'); TODO: move this up at some point. Note that it'll be in Moo 1.3
-Selectors.RegExps.combined = (/\.([\w-]+)|\[([\w-]+)(?:([!*^$~|]?=)(["']?)([^\4]*?)\4)?\]|:([\w-]+)(?:\(["']?(.*?)?["']?\)|$)/g);
+// Selectors.RegExps.combined = (/\.([\w-]+)|\[([\w-]+)(?:([!*^$~|]?=)(["']?)([^\4]*?)\4)?\]|:([\w-]+)(?:\(["']?(.*?)?["']?\)|$)/g);
